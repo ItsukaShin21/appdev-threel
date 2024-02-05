@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="landing-page-style.css">
+</head>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-image: url('images/main_bg.png');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+</style>
+
+<body>
+
+<header>
+    <h1>THREEL</h1>
+    <div class="header-navs">
+        <a href="">Sign Up</a>
+        <a href="">Log In</a>
+    </div>
+</header>
+<nav>
+    <div class="btn-explore">
+        <img src="images/Library_icon.png" alt="icon-explore">
+        <a class="nav-header" href="#">LIBRARY</a>
+    </div>
+    <div class="nav-buttons">
+        <a href="#">My Playlist</a>
+        <a href="#">Podcasts</a>
+        <a href="#">Videocasts</a>
+        <a href="#">Songs</a>
+        <a href="#">Profile</a>
+    </div>
+
+</nav>
+
+<main>
+    <div class="search_container">
+        <input type="text" class="search_box" placeholder="Search">
+        <img src="images/search_icon.png" class="search_icon">
+    </div>
+
+    <div class="podcast_category">
+        <h1>PODCAST</h1>
+        <div class="sub_category">
+            <h3>Trending</h3>
+            <a href="">See More</a>
+        </div>
+
+        <div class="category_list">
+            <div class="item_container1">
+                <div class="item_image"></div>
+                <div class="item_title">
+                    <div class="text">
+                        <h4>Title</h4>
+                        <p>Owner</p>
+                    </div>
+                    <div class="fav_icon">
+                        <img src="images/heart_icon.png">
+                    </div>
+                </div>
+            </div>
+            <div class="item_container1">
+                <div class="item_image"></div>
+                <div class="item_title">
+                    <div class="text">
+                        <h4>Title</h4>
+                        <p>Owner</p>
+                    </div>
+                    <div class="fav_icon">
+                        <img src="images/heart_icon.png">
+                    </div>
+                </div>
+            </div>
+            <div class="item_container1">
+                <div class="item_image"></div>
+                <div class="item_title">
+                    <div class="text">
+                        <h4>Title</h4>
+                        <p>Owner</p>
+                    </div>
+                    <div class="fav_icon">
+                        <img src="images/heart_icon.png">
+                    </div>
+                </div>
+            </div>
+            <div class="item_container1">
+                <div class="item_image"></div>
+                <div class="item_title">
+                    <div class="text">
+                        <h4>Title</h4>
+                        <p>Owner</p>
+                    </div>
+                    <div class="fav_icon">
+                        <img src="images/heart_icon.png">
+                    </div>
+                </div>
+            </div>
+            <div class="item_container1">
+                <div class="item_image"></div>
+                <div class="item_title">
+                    <div class="text">
+                        <h4>Title</h4>
+                        <p>Owner</p>
+                    </div>
+                    <div class="fav_icon">
+                        <img src="images/heart_icon.png">
+                    </div>
+                </div>
+            </div>
+            <div class="item_container1">
+                <div class="item_image"></div>
+                <div class="item_title">
+                    <div class="text">
+                        <h4>Title</h4>
+                        <p>Owner</p>
+                    </div>
+                    <div class="fav_icon">
+                        <img src="images/heart_icon.png">
+                    </div>
+                </div>
+            </div>
+            <div class="item_container1">
+                <div class="item_image"></div>
+                <div class="item_title">
+                    <div class="text">
+                        <h4>Title</h4>
+                        <p>Owner</p>
+                    </div>
+                    <div class="fav_icon">
+                        <img src="images/heart_icon.png">
+                    </div>
+                </div>
+            </div>
+            <div class="item_container1">
+                <div class="item_image"></div>
+                <div class="item_title">
+                    <div class="text">
+                        <h4>Title</h4>
+                        <p>Owner</p>
+                    </div>
+                    <div class="fav_icon">
+                        <img src="images/heart_icon.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="videocast_category">
+        <div class="sub_category">
+            <h1>VIDEOCAST</h1>
+            <a href="">See More</a>
+        </div>
+        <div class="category_list">
+            <div class="item_container2">
+                <div class="item_image2"></div>
+                <div class="item_title2">
+                    <div class="text">
+                        <h4>Title</h4>
+                        <p>Owner</p>
+                    </div>
+                    <div class="fav_icon">
+                        <img src="images/heart_icon.png">
+                    </div>
+                </div>
+            </div>
+            <div class="item_container2">
+                <div class="item_image2"></div>
+                <div class="item_title2">
+                    <div class="text">
+                        <h4>Title</h4>
+                        <p>Owner</p>
+                    </div>
+                    <div class="fav_icon">
+                        <img src="images/heart_icon.png">
+                    </div>
+                </div>
+            </div>
+            <div class="item_container2">
+                <div class="item_image2"></div>
+                <div class="item_title2">
+                    <div class="text">
+                        <h4>Title</h4>
+                        <p>Owner</p>
+                    </div>
+                    <div class="fav_icon">
+                        <img src="images/heart_icon.png">
+                    </div>
+                </div>
+            </div>
+            <div class="item_container2">
+                <div class="item_image2"></div>
+                <div class="item_title2">
+                    <div class="text">
+                        <h4>Title</h4>
+                        <p>Owner</p>
+                    </div>
+                    <div class="fav_icon">
+                        <img src="images/heart_icon.png">
+                    </div>
+                </div>
+            </div>
+            <div class="item_container2">
+                <div class="item_image2"></div>
+                <div class="item_title2">
+                    <div class="text">
+                        <h4>Title</h4>
+                        <p>Owner</p>
+                    </div>
+                    <div class="fav_icon">
+                        <img src="images/heart_icon.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="songs_category">
+        <div class="sub_category">
+            <h1>SONGS</h1>
+            <a href="">See More</a>
+        </div>
+        <div class="category_list">
+            <div class="item_container1">
+                <div class="item_image"></div>
+                <div class="item_title">
+                    <div class="text">
+                        <h4>Title</h4>
+                        <p>Owner</p>
+                    </div>
+                    <div class="fav_icon">
+                        <img src="images/heart_icon.png">
+                    </div>
+                </div>
+            </div>
+            <div class="item_container1">
+                <div class="item_image"></div>
+                <div class="item_title">
+                    <div class="text">
+                        <h4>Title</h4>
+                        <p>Owner</p>
+                    </div>
+                    <div class="fav_icon">
+                        <img src="images/heart_icon.png">
+                    </div>
+                </div>
+            </div>
+            <div class="item_container1">
+                <div class="item_image"></div>
+                <div class="item_title">
+                    <div class="text">
+                        <h4>Title</h4>
+                        <p>Owner</p>
+                    </div>
+                    <div class="fav_icon">
+                        <img src="images/heart_icon.png">
+                    </div>
+                </div>
+            </div>
+            <div class="item_container1">
+                <div class="item_image"></div>
+                <div class="item_title">
+                    <div class="text">
+                        <h4>Title</h4>
+                        <p>Owner</p>
+                    </div>
+                    <div class="fav_icon">
+                        <img src="images/heart_icon.png">
+                    </div>
+                </div>
+            </div>
+            <div class="item_container1">
+                <div class="item_image"></div>
+                <div class="item_title">
+                    <div class="text">
+                        <h4>Title</h4>
+                        <p>Owner</p>
+                    </div>
+                    <div class="fav_icon">
+                        <img src="images/heart_icon.png">
+                    </div>
+                </div>
+            </div>
+            <div class="item_container1">
+                <div class="item_image"></div>
+                <div class="item_title">
+                    <div class="text">
+                        <h4>Title</h4>
+                        <p>Owner</p>
+                    </div>
+                    <div class="fav_icon">
+                        <img src="images/heart_icon.png">
+                    </div>
+
+                </div>
+            </div>
+            <div class="item_container1">
+                <div class="item_image"></div>
+                <div class="item_title">
+                    <div class="text">
+                        <h4>Title</h4>
+                        <p>Owner</p>
+                    </div>
+                    <div class="fav_icon">
+                        <img src="images/heart_icon.png">
+                    </div>
+                </div>
+            </div>
+            <div class="item_container1">
+                <div class="item_image"></div>
+                <div class="item_title">
+                    <div class="text">
+                        <h4>Title</h4>
+                        <p>Owner</p>
+                    </div>
+                    <div class="fav_icon">
+                        <img src="images/heart_icon.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</main>
+</body>
+</html>
